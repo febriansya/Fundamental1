@@ -19,7 +19,6 @@ class MoveWithDataActivity : AppCompatActivity() {
 
         val name = intent.getStringExtra(EXTRA_NAME)
         val age = intent.getIntExtra(EXTRA_AGE, 0)
-
         textWithdata.text = "name $name, age $age"
     }
 }

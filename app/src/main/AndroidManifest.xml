@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fundamental1">
         <activity
+            android:name=".ImplicitActivity"
+            android:exported="false"
+            android:label="@string/title_activity_implicit"
+            android:theme="@style/Theme.Fundamental1.NoActionBar" />
+        <activity
+            android:name=".OnlyMoveActivity"
+            android:exported="false" />
+        <activity
             android:name=".MoveWithDataActivity"
             android:exported="false" />
         <activity
