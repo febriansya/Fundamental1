@@ -22,6 +22,8 @@ class MoveActivity : AppCompatActivity() {
 
         val name = intent.getStringExtra(EXTRA_NAME)
         val age = intent.getIntExtra(EXTRA_AGE, 0)
+
+//        getwith data class getparcelalbe
         val objectPerson = intent.getParcelableExtra<Person>(EXTRA_PERSON) as Person
 
 

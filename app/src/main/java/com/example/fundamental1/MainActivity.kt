@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val btnMoveActivity: Button = findViewById(R.id.button_move_to_activity)
         btnMoveActivity.setOnClickListener(this)
-        val btnMoveAvtivityWithData: Button = findViewById(R.id.button_move_to_activity_with_data)
-        btnMoveAvtivityWithData.setOnClickListener(this)
+        val btnMoveActivityWithData: Button = findViewById(R.id.button_move_to_activity_with_data)
+        btnMoveActivityWithData.setOnClickListener(this)
         val btnMoveActivityWithDataObject: Button = findViewById(R.id.btn_move_activity_with_object)
         btnMoveActivityWithDataObject.setOnClickListener(this)
 
@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 startActivity(intent)
             }
             R.id.btn_move_activity_with_object -> {
-
                 val person = Person(
                     name = "yan febriansyah",
                     12,

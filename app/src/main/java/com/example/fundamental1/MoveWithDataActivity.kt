@@ -17,6 +17,7 @@ class MoveWithDataActivity : AppCompatActivity() {
 
         val textWithdata: TextView = findViewById(R.id.move_with_data_activity)
 
+//        get data without parcelable
         val name = intent.getStringExtra(EXTRA_NAME)
         val age = intent.getIntExtra(EXTRA_AGE, 0)
         textWithdata.text = "name $name, age $age"
